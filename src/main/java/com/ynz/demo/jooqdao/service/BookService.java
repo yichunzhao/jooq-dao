@@ -24,5 +24,4 @@ public class BookService {
         dslContext.insertInto(Tables.BOOK, Tables.BOOK.AUTHOR, Tables.BOOK.TITLE).values(book.getAuthor(), book.getTitle()).execute();
     }
 
-
 }
